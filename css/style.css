@@ -1,11 +1,14 @@
 body {
 	margin: 0 auto;
 	max-width: 1200px;
-	color: #fff;
-}
-.features-ico, .features-text, .search-block, footer {
 	color: #000;
 }
+.welcome-block {
+	background-image: url("https://dummyimage.com/1200x508/000/fff.jpg&text=welcomeblock");
+}
+/*.features-ico, .features-text, .search-block, footer {
+	color: #000;
+}*/
 .mask {
 	background-image: url("https://dummyimage.com/1200x273/000/fff.jpg&text=mask");
 	height: 273px;
