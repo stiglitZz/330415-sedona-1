@@ -8,14 +8,16 @@
   <body>
     
     <header>
-      <ul class="main-nav">
-        <li><a href="">информация</a></li>
-        <li><a href="">фото и видео</a></li>
-        <li><a href="">карта штата</a></li>
-        <li><a href="">гостиницы</a></li>
-      </ul>
+      <nav class="main-nav">  
+        <ul>
+          <li><a href="#">информация</a></li>
+          <li><a href="#">фото и видео</a></li>
+          <li><a href="#">карта штата</a></li>
+          <li><a href="#">гостиницы</a></li>
+        </ul>
+      </nav>
       <div class="site-logo"> 
-        <a href=""><img src="https://dummyimage.com/138x70/81b3d2/fff.jpg&text=logo" alt="logo"></a>
+        <a href="#"><img src="https://dummyimage.com/138x70/81b3d2/fff.jpg&text=logo" alt="logo"></a>
       </div>      
     </header>
 
@@ -27,26 +29,38 @@
           <fieldset class="structure">
             
             <legend class="">инфраструктура:</legend>
-
-            <input type="checkbox" name="structure" id="pool" value="pool">
-            <label for="pool">бассейн</label>
-            <input type="checkbox" name="structure" id="parking" value="parking">
-            <label for="parking">парковка</label>
-            <input type="checkbox" name="structure" id="wifi" value="wifi">
-            <label for="wifi">wi-fi</label>
+            
+            <div class="row-checkbox">
+              <input type="checkbox" name="structure" id="pool" value="pool">
+              <label for="pool">бассейн</label>
+            </div>
+            <div class="row-checkbox">  
+              <input type="checkbox" name="structure" id="parking" value="parking">
+              <label for="parking">парковка</label>
+            </div>
+            <div class="row-checkbox">
+              <input type="checkbox" name="structure" id="wifi" value="wifi">
+              <label for="wifi">wi-fi</label>
+            </div>
 
           </fieldset>
 
           <fieldset class="type-housing">
 
             <legend class="">тип жилья:</legend>
-
-            <input type="checkbox" name="housing" id="hotel" value="hotel">
-            <label for="hotel">гостиница</label>
-            <input type="checkbox" name="housing" id="motel" value="motel">
-            <label for="motel">мотель</label>
-            <input type="checkbox" name="housing" id="aparts" value="aparts">
-            <label for="aparts">апартаменты</label>
+            
+            <div class="row-checkbox">
+              <input type="checkbox" name="housing" id="hotel" value="hotel">
+              <label for="hotel">гостиница</label>
+            </div>
+            <div class="row-checkbox">
+              <input type="checkbox" name="housing" id="motel" value="motel">
+              <label for="motel">мотель</label>
+            </div>
+            <div class="row-checkbox">
+              <input type="checkbox" name="housing" id="aparts" value="aparts">
+              <label for="aparts">апартаменты</label>
+            </div>
 
           </fieldset>
 
@@ -69,15 +83,17 @@
       </section>
 
       <section class="search-info">
-        <div class="found">найдено:<span>3</span></div>
-        <span>сортировка:</span>
-        <a href="">по цене</a>
-        <a href="">по типу</a>
-        <a href="">по рейтингу</a>
+        <div class="found"><span>найдено:</span><span>3</span></div>
+        <ul>
+          <li><span>сортировка:</span></li>
+          <li><a href="#">по цене</a></li>
+          <li><a href="#">по типу</a></li>
+          <li><a href="#">по рейтингу</a></li>
+        </ul>
 
         <div class="toggles">
-          <a href="">по убыванию</a>
-          <a href="">по возрастанию</a>
+          <a href="#">по убыванию</a>
+          <a href="#">по возрастанию</a>
         </div>
       </section>
 
@@ -91,21 +107,26 @@
 
           <div class="info-row">
             
-            <h1>amara resort & spa</h1>
+            <h1><a href="#">amara resort &#38; spa</a></h1>
 
             <div class="info-row-desc">
               <div class="info-row-desc-left">
                 <span>гостиница</span>
-                <a href="">подробнее</a>
+                <a href="#">подробнее</a>
               </div>
               <div class="info-row-desc-right">
                 <span>от 4000 р.</span>
-                <a href="">забронировать</a>
+                <a href="#">забронировать</a>
               </div>
             </div>
 
             <div class="rating-block">
-              <div class="stars">★★★★</div>
+              <div class="stars">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
               <div class="rating">рейтинг: 8,5</div>
             </div>
 
@@ -121,21 +142,25 @@
 
           <div class="info-row">
             
-            <h1>desert quail inn</h1>
+            <h1><a href="#">desert quail inn</a></h1>
 
             <div class="info-row-desc">
               <div class="info-row-desc-left">
                 <span>мотель</span>
-                <a href="">подробнее</a>
+                <a href="#">подробнее</a>
               </div>
               <div class="info-row-desc-right">
                 <span>от 3000 р.</span>
-                <a href="">забронировать</a>
+                <a href="#">забронировать</a>
               </div>
             </div>
 
             <div class="rating-block">
-              <div class="stars">★★★</div>
+              <div class="stars">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
               <div class="rating">рейтинг: 8,9</div>
             </div>
 
@@ -146,26 +171,29 @@
         <article class="hotel-row">
           
           <div class="img-item">
-            <a href="#"><img src="https://dummyimage.com/135x90/000/fff.jpg&text=hotelimg" alt=""></a>
+            <a href="#"><img src="https://dummyimage.com/135x90/000/fff.jpg&text=hotelimg" alt="hotelimg"></a>
           </div> 
 
           <div class="info-row">
             
-            <h1>villas at poco diablo</h1>
+            <h1><a href="#">villas at poco diablo</a></h1>
 
             <div class="info-row-desc">
               <div class="info-row-desc-left">
                 <span>апартаменты</span>
-                <a href="">подробнее</a>
+                <a href="#">подробнее</a>
               </div>
               <div class="info-row-desc-right">
                 <span>от 2000 р.</span>
-                <a href="">забронировать</a>
+                <a href="#">забронировать</a>
               </div>
             </div>
 
             <div class="rating-block">
-              <div class="stars">★★</div>
+              <div class="stars">
+                <i></i>
+                <i></i>
+              </div>
               <div class="rating">рейтинг: 9,2</div>
             </div>
 
@@ -180,15 +208,15 @@
 
       <section class="social-menu">
         <ul>
-          <li><a href="">twt</a></li>
-          <li><a href="">fb</a></li>
-          <li><a href="">yt</a></li>
+          <li><a href="#">twt</a></li>
+          <li><a href="#">fb</a></li>
+          <li><a href="#">yt</a></li>
         </ul>
       </section>
 
       <section class="copyright">
         <span>website by</span>
-        <a href="">
+        <a href="#">
           <img src="https://dummyimage.com/113x39/000/fff.jpg&text=cpyrght" alt="">
         </a>
       </section> 

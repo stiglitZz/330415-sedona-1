@@ -9,10 +9,10 @@
 
     <header>
       <ul class="main-nav">
-        <li><a href="">информация</a></li>
-        <li><a href="">фото и видео</a></li>
-        <li><a href="">карта штата</a></li>
-        <li><a href="">гостиницы</a></li>
+        <li><a href="#">информация</a></li>
+        <li><a href="#">фото и видео</a></li>
+        <li><a href="#">карта штата</a></li>
+        <li><a href="#">гостиницы</a></li>
       </ul>
       <div class="site-logo"> 
         <a><img src="https://dummyimage.com/138x70/81b3d2/fff.jpg&text=logo" alt="logo"></a>
@@ -23,57 +23,64 @@
 
       <section class="welcome-block">
         <h1><a href="#"><img src="https://dummyimage.com/458x78/f0f/fff.jpg&text=SEDONA" alt="mainlogo"></a></h1>
-        <div class="mask">
-          <h2>седона — небольшой городок в аризоне, заслуживающий большего!</h2>
-          <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!<p>
-        </div>
+        <div class="mask"><img src="https://dummyimage.com/1200x57/00e0e0/fff.jpg&text=mask" alt="mask"></div>
+      </section>
+      <section class="welcome-block-info">
+        <h2>седона — небольшой городок в аризоне, заслуживающий большего!</h2>
+        <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
       </section>
 
       <section class="promo-info">
         <div class="text-block">
           <h3>настоящий городок</h3>
-          <span>— №1 —</span>
+          <span>&#8212; №1 &#8212;</span>
           <p>седона — не аттракцион для туристов, там течет своя жизнь</p>
+        </div>
+        <div class="promo-img">
+          <img src="https://dummyimage.com/800x257/9100f2/fff.jpg&text=promo-img" alt="promo-img">
         </div>
       </section>
 
-      <section class="features-ico">
-        <div class="feature-block">
+      <section class="features-block-ico">
+        <div class="feature-item housing">
           <h3>жилье</h3>
           <p>рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
-        <div class="feature-block">
+        <div class="feature-item food">
           <h3>еда</h3>
           <p>всегда заказывайте фирменный бургер,вы не разочаруетесь!</p>
         </div>
-        <div class="feature-block">
+        <div class="feature-item souvenir">
           <h3>сувениры</h3>
           <p>не только китайского, но и местного производства!</p>
         </div>
       </section>
 
       <section class="promo-info">
+        <div class="promo-img">
+          <img src="https://dummyimage.com/800x257/9100f2/fff.jpg&text=promo-img" alt="promo-img">
+        </div>        
         <div class="text-block">
           <h3>там есть мост дьявола</h3>
-          <span>— №2 —</span>
+          <span>&#8212; №2 &#8212;</span>
           <p>да, по нему можно пройти! если конечно вы осмелитесь</p>
         </div>        
       </section>
 
-      <section class="features-text">
+      <section class="features-block-info">
         <div class="feature-block">
           <h3>небольшая площадь</h3>
-          <span>— №3 —</span>
+          <span>&#8212; №3 &#8212;</span>
           <p>все достопримечательности находятся очень близко</p>
         </div>
         <div class="feature-block">
           <h3>красивая дорога</h3>
-          <span>— №4 —</span>
+          <span>&#8212; №4 &#8212;</span>
           <p>ехать в седону из лас-вегаса совсем не скучно!</p>
         </div>
         <div class="feature-block">
           <h3>мало туристов</h3>
-          <span>— №5 —</span>
+          <span>&#8212; №5 &#8212;</span>
           <p>большинство едет в гранд каньон и толпится там</p>
         </div>
       </section>
@@ -85,30 +92,30 @@
         <div class="search-form">
           <form action="https://echo.htmlacademy.ru" method="post">
             
-            <div class="row-input">
+            <div class="row-input date-in">
               <label for="date-in">дата заезда:</label>
               <input type="text" name="date-in" id="date-in" value="24 апреля 2017">
-              <a href="">calendar</a>
+              <a href="#">calendar</a>
             </div>
 
-            <div class="row-input">
+            <div class="row-input date-out">
               <label for="date-out">дата выезда:</label>
               <input type="text" name="date-out" id="date-out" value="4 июля 2017">
-              <a href="">calendar</a>
+              <a href="#">calendar</a>
             </div>
 
-            <div class="row-input">
+            <div class="row-input adult">
               <label for="adult-count">взрослые:</label>
-              <a href="">-</a>
+              <button>-</button>
               <input type="text" name="adult-count" id="adult-count" value="2">
-              <a href="">+</a>
+              <button>+</button>
             </div>
 
-            <div class="row-input">
+            <div class="row-input child">
               <label for="children-count">дети:</label>
-              <a href="">-</a>
+              <button>-</button>
               <input type="text" name="children-count" id="children-count" value="0">
-              <a href="">+</a>
+              <button>+</button>
             </div>
 
             <input class="btn-search" type="submit" name="hotel-search" value="найти">
@@ -118,7 +125,7 @@
       </section>
 
       <section class="map">
-        <img src="https://dummyimage.com/1200x472/000/fff.jpg&text=map" alt="map">
+          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:472px;width:1200px;'><div id='gmap_canvas' style='height:472px;width:1200px;'></div><div><small><a href="http://embedgooglemaps.com">embedgooglemaps.com</a></small></div><div><small><a href="http://buyproxies.io/">elite proxies</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:9,center:new google.maps.LatLng(34.86315495456985,-111.7978538807007),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(34.86315495456985,-111.7978538807007)});infowindow = new google.maps.InfoWindow({content:'<strong>Седона</strong><br>Седона<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
       </section>
     </main>
 
@@ -128,15 +135,15 @@
 
       <section class="social-menu">
         <ul>
-          <li><a href="">twt</a></li>
-          <li><a href="">fb</a></li>
-          <li><a href="">yt</a></li>
+          <li><a href="#">twt</a></li>
+          <li><a href="#">fb</a></li>
+          <li><a href="#">yt</a></li>
         </ul>
       </section>
 
       <section class="copyright">
         <span>website by</span>
-        <a href="">
+        <a href="#">
           <img src="https://dummyimage.com/113x39/000/fff.jpg&text=cpyrght" alt="">
         </a>
       </section>
