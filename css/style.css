@@ -2,10 +2,160 @@ body {
 	margin: 0 auto;
 	max-width: 1200px;
 	color: #000;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+}
+body a {
+	text-decoration: none;
+}
+.main-nav ul,
+ul {
+	list-style: none;
+}
+.main-nav a {
+	color: #000;
+	font-weight: 700;
+	line-height: 26px;	
+}
+.main-nav .current-page {
+	color: #766357;
+}
+.welcome-block-info h2 {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+}
+.welcome-block-info p {
+	line-height: 26px;
 }
 .welcome-block {
-	background-image: url("https://dummyimage.com/1200x508/000/fff.jpg&text=welcomeblock");
+	background-image: url("../img/welcome-img.jpg");
 	height: 510px;
+}
+.promo-info .text-block{
+	width: 400px;
+	height: 256px;
+	background-color: #81b3d2;
+	color: #fff;
+}
+.promo-info h3 {
+	font-size: 21px;
+	font-weight: 700;
+}
+.features-block-ico h3,
+.features-block-info h3 {
+	font-size: 21px;
+	font-weight: 700;
+}
+.features-block-ico p,
+.features-block-info p,
+.features-block-info span,
+.search-block p {
+	color: #333;
+}
+.search-block h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+.search-block .search-btn {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 21px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	width: 568px;
+	height: 86px;
+	line-height: 86px;
+	background-color: #766357;
+}
+.search-form {
+	font-weight: 700;
+	line-height: 26px;
+}
+.search-form .btn-search {
+	font-size: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	width: 458px;
+	height: 58px;
+	line-height: 58px;
+	background-color: #81b3d2;
+	border: none;
+}
+footer .visitsedona {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+}
+.visitsedona a {
+	color: #000;
+}
+.copyright span {
+	line-height: 26px;
+}
+.form-block-wrapper {
+	background-image: url("../img/filter-background.jpg");
+	color: #fff;
+}
+.form-block-wrapper legend {
+	font-size: 16px;
+	font-weight: 700;
+
+}
+.search-info .title-found,
+.search-info .result-found {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+}
+.search-info span,
+.search-info li a {
+	font-size: 12px;
+	line-height: 18px;
+}
+.search-info li:first-child a {
+	color: #81b3d2;
+}
+.search-info li:nth-child(2) a,
+.search-info li:last-child a {
+	opacity: 0.3;
+	color: #000;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #81b3d2;
+}
+.search-results h1 a {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #000;
+}
+.search-results .info-row-desc a {
+	font-weight: 700;
+	color: #fff;
+}
+.info-row-desc-left a {
+	display: inline-block;
+	padding: 0 16px;
+	height: 27px;
+	line-height: 27px;
+	background-color: #81b3d2;
+	text-align: center;
+}
+.info-row-desc-right a {
+	display: inline-block;
+	padding: 0 16px;
+	height: 27px;
+	line-height: 27px;
+	background-color: #766357;	
+	text-align: center;
+}
+.rating-block span {
+	color: #666;
 }
 .map {
 	background-image: url("https://dummyimage.com/1200x472/000/fff.jpg&text=map");
