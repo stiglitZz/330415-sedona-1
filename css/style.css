@@ -31,7 +31,7 @@ ul {
 	line-height: 26px;
 }
 .welcome-block {
-	background-image: url("../img/welcome-img.jpg");
+	background-image: url("../img/background-photo.jpg");
 	height: 510px;
 }
 .promo-info .text-block{
@@ -43,6 +43,16 @@ ul {
 .promo-info h3 {
 	font-size: 21px;
 	font-weight: 700;
+}
+.promo-info .promo-img {
+	width: 800px;
+	height: 256px;
+}
+.promo-info .promo-img-1 {
+	background-image: url("../img/promo-img1.jpg");
+}
+.promo-info .promo-img-2 {
+	background-image: url("../img/promo-img2.jpg");
 }
 .features-block-ico h3,
 .features-block-info h3 {
@@ -85,6 +95,15 @@ ul {
 	line-height: 58px;
 	background-color: #81b3d2;
 	border: none;
+}
+.search-form .calendar-svg {
+	fill: #c2c2c2;
+}
+.search-form .calendar-svg:hover {
+	fill: #000;
+}
+.search-form .calendar-svg:active {
+	fill: #81b3d2;
 }
 footer .visitsedona {
 	font-size: 21px;
