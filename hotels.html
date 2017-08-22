@@ -78,15 +78,23 @@
           <legend class="">стоимость в сутки (р):</legend>
 
           <div class="price-form">
+
             <div class="price-range">
-              <label>от
-                <input type="text" name="price" value="0">
-              </label>
-              <label>до
-                <input type="text" name="price" value="3000">
-              </label>
+              <label>от<input type="text" name="price" value="0"></label>
+              <label>до<input type="text" name="price" value="3000"></label>
+            </div>
+
+
+            <div class="range-controls">
+              <div class="scale">
+                <div style="width: 80%;" class="bar"></div>
+              </div>
+              <div class="toggle min-toggle"></div>
+              <div class="toggle max-toggle"></div>
+
             </div>
             <button class="btn-show" type="submit">показать</button>
+
           </div>
 
         </fieldset>
@@ -108,8 +116,8 @@
       </ul>
 
       <div class="toggles">
-        <a href="#">по убыванию</a>
-        <a href="#">по возрастанию</a>
+        <a href="#"><svg></svg></a>
+        <a href="#"><svg></svg></a>
       </div>
     </section>
 

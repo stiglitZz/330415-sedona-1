@@ -1,4 +1,20 @@
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ptsans.woff') format('woff'), url('../fonts/ptsans.woff2') format('woff2');
+    src: local('PT Sans'), local('PTSans-Regular');
+}
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/ptsansbold.woff') format('woff'), url('../fonts/ptsansbold.woff2') format('woff2');
+    src: local('PT Sans Bold'), local('PTSans-Bold');
+}
+
 body {
+	font-family: 'PT Sans', 'Tahoma', sans-serif;
 	margin: 0 auto;
 	max-width: 1200px;
 	color: #000;
@@ -10,13 +26,20 @@ body {
 body a {
 	text-decoration: none;
 }
-body ul{
+.main-nav ul, .social-menu ul, .search-info ul{
 	list-style: none;
 }
 .main-nav a {
 	color: #000;
 	font-weight: 700;
 	line-height: 26px;	
+}
+.main-nav a:hover, .info-row h1 a:hover {
+	color: #81b3d2;
+}
+.main-nav a:active, .info-row h1 a:active {
+	opacity: 0.3;
+	color: #000;
 }
 .main-nav .current-page {
 	color: #766357;
@@ -119,11 +142,115 @@ footer .visitsedona {
 	background-image: url("../img/filter-background.jpg");
 	color: #fff;
 }
+.form-block-wrapper form {
+	position: relative;
+}
+.cost-per-day .btn-show {
+    display: block;
+    font:inherit;
+    text-transform: uppercase;
+    padding: 6px 35px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-left: 85px;
+    cursor: pointer;
+}
+.cost-per-day .btn-show:hover {
+    color: #000000;
+    background: #ffffff;
+}
 .form-block-wrapper legend {
 	font-size: 16px;
 	font-weight: 700;
 
 }
+.form-block-wrapper .cost-per-day {
+    width: 330px;
+}
+.cost-per-day legend {
+    margin-bottom: 9px;
+
+}
+.form-block-wrapper .cost-per-day .price-range {
+    position: relative;
+    height: 36px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    font-size: 0;
+}
+.cost-per-day .price-range:after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 22px;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cost-per-day .price-range label {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 38px;
+    vertical-align: top;
+    cursor: pointer;
+    width: 90px;
+    padding-left: 65px;
+}
+.form-block-wrapper .cost-per-day input {
+    width: 50px;
+    margin: 0;
+    background: none;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    padding: 0px 5px;
+}
+/* double-filter*/
+
+.range-controls {
+    position: relative;
+    height: 35px;
+    width: 320px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.scale {
+    margin-top: 20px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
+}
+.bar {
+    height: 2px;
+    background: #fff;
+}
+.toggle {
+    position: absolute;
+    top: 11px;
+    left: 30px;
+    width: 4px;
+    height: 4px;
+    border: 8px solid white;
+    background: #ababab;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+}
+.toggle:hover {
+    background: #1c4f80;
+}
+.min-toggle {
+    left: 0px;
+}
+.max-toggle {
+    left: 80%;
+}
+/* ---------------*/
 .search-info .title-found,
 .search-info .result-found {
 	font-size: 21px;
@@ -135,6 +262,7 @@ footer .visitsedona {
 	font-size: 12px;
 	line-height: 18px;
 }
+
 .search-info li:first-child a {
 	color: #81b3d2;
 }
@@ -145,6 +273,15 @@ footer .visitsedona {
 	text-decoration: underline;
 	text-decoration-style: dotted;
 	text-decoration-color: #81b3d2;
+}
+.search-info li a:hover {
+	opacity: 1;
+	color: #81b3d2;
+}
+.search-info li a:active {
+	opacity: 1;
+	color: #000;
+	text-decoration: none;
 }
 .search-results h1 a {
 	font-size: 21px;
