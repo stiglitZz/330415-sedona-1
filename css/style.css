@@ -15,6 +15,8 @@
 
 body {
 	font-family: 'PT Sans', 'Tahoma', sans-serif;
+	margin: 0;
+	padding: 0;
 	margin: 0 auto;
 	max-width: 1200px;
 	color: #000;
@@ -28,11 +30,19 @@ body a {
 }
 .main-nav ul, .social-menu ul, .search-info ul{
 	list-style: none;
+	padding: 0;
+}
+.main-nav ul {
+	display: flex;
+}
+.main-nav li {
+	width: 240px;
+	margin: 0 auto;
 }
 .main-nav a {
 	color: #000;
 	font-weight: 700;
-	line-height: 26px;	
+	line-height: 26px;
 }
 .main-nav a:hover, .info-row h1 a:hover {
 	color: #81b3d2;
@@ -43,6 +53,9 @@ body a {
 }
 .main-nav .current-page {
 	color: #766357;
+}
+.site-logo {
+	width: 138px;
 }
 .welcome-block-info h2 {
 	font-size: 21px;
@@ -75,6 +88,9 @@ body a {
 }
 .promo-info .promo-img-2 {
 	background-image: url("../img/promo-img2.jpg");
+}
+.features-block-info {
+	background-color: #eee;
 }
 .features-block-ico h3,
 .features-block-info h3 {
@@ -268,8 +284,7 @@ footer .visitsedona {
 }
 .search-info li:nth-child(2) a,
 .search-info li:last-child a {
-	opacity: 0.3;
-	color: #000;
+	color: #d2d2d2;
 	text-decoration: underline;
 	text-decoration-style: dotted;
 	text-decoration-color: #81b3d2;
