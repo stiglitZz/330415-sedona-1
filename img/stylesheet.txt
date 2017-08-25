@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-checkbox-off {
+    width: 23px;
+    height: 23px;
+    background-position: -5px -5px;
+}
+
+.sprite-checkbox-off-disabled {
+    width: 23px;
+    height: 23px;
+    background-position: -5px -38px;
+}
+
+.sprite-checkbox-on {
+    width: 27px;
+    height: 23px;
+    background-position: -5px -71px;
+}
+
+.sprite-checkbox-on-disabled {
+    width: 27px;
+    height: 23px;
+    background-position: -5px -104px;
+}
