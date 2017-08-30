@@ -795,10 +795,9 @@ footer .logo-academy-svg:active {
 .search-results .hotel-row {
 	display: flex;
 	padding: 29px 72px;
-	padding-bottom: 0;
+	padding-bottom: 25px;
 }
 .search-results .hotel-row:last-child {
-	margin-bottom: 26px;
 }
 .search-results h1 {
 	margin: 0;
@@ -882,22 +881,22 @@ footer .logo-academy-svg:active {
 	margin-left: 45px;
 }
 .rating-block .stars {
-	margin-bottom: 42px;
+	margin-bottom: 40px;
 	margin-left: auto;
 
 }
 
 .rating-block .stars i {
-	margin-right: 1px;
+	margin-right: 1.5px;
 }
 .search-results article:first-child .stars {
-	width: 88px;
+	width: 89.5px;
 }
 .search-results article:nth-child(2) .stars {
 	width: 66px;
 }
 .search-results article:last-child .stars {
-	width: 42px;
+	width: 43px;
 }
 .map {
 	background-image: url("https://dummyimage.com/1200x472/000/fff.jpg&text=map");
