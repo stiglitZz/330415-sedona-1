@@ -880,12 +880,34 @@ footer .logo-academy-svg:active {
 	background-color: #f2f2f2;
 	margin-left: 45px;
 }
+/*расстановка звезд - 1 вариант*/
+.rating-block .stars {
+	margin-bottom: 40px;
+}
+.rating-block .stars i {
+	margin-right: 1.5px;
+}
+.search-results article:first-child .stars {
+	margin-left: 67px;
+}
+.search-results article:nth-child(2) .stars {
+	margin-left: 91px;
+}
+.search-results article:last-child .stars {
+	margin-left: 114px;
+}
+
 .rating-block .stars {
 	margin-bottom: 40px;
 	margin-left: auto;
 
 }
+/*расстановка звезд 2-й вариант */
+/*.rating-block .stars {
+	margin-bottom: 40px;
+	margin-left: auto;
 
+}
 .rating-block .stars i {
 	margin-right: 1.5px;
 }
@@ -897,7 +919,7 @@ footer .logo-academy-svg:active {
 }
 .search-results article:last-child .stars {
 	width: 43px;
-}
+}*/
 .map {
 	background-image: url("https://dummyimage.com/1200x472/000/fff.jpg&text=map");
 
