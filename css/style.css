@@ -480,10 +480,17 @@ footer .social-menu {
 .social-menu .svg-ico-social {
 	position: relative;
 	top: 50%;
-	left: 18%;
 	transform: translate(-50%, -50%);
 }
-
+.social-menu li:first-child svg {
+	left: 20%;
+}
+.social-menu li:nth-child(2) svg {
+	left: 15%;
+}
+.social-menu li:last-child svg {
+	left: 23%;
+}
 footer .logo-academy-svg:hover {
 	fill: #81b3d2;
 }
@@ -609,15 +616,16 @@ footer .logo-academy-svg:active {
 
 }
 .form-block-wrapper .cost-per-day {
-    width: 330px;
+    width: 320px;
 }
 .cost-per-day legend {
-    margin-bottom: 9px;
+    margin-bottom: 12px;
 
 }
 .form-block-wrapper .cost-per-day .price-range {
     position: relative;
-    height: 36px;
+    width: 314px;
+    height: 32px;
     border: 2px solid #fff;
     border-radius: 2px;
     font-size: 0;
@@ -635,11 +643,15 @@ footer .logo-academy-svg:active {
 .cost-per-day .price-range label {
     display: inline-block;
     font-size: 14px;
-    line-height: 38px;
+    line-height: 32px;
     vertical-align: top;
     cursor: pointer;
     width: 90px;
     padding-left: 65px;
+
+}
+.cost-per-day .price-range label:last-child {
+	padding-left: 58px;
 }
 .form-block-wrapper .cost-per-day input {
     width: 50px;
@@ -650,6 +662,7 @@ footer .logo-academy-svg:active {
     color: inherit;
     padding: 0px 5px;
 }
+
 /* double-filter*/
 
 .range-controls {
@@ -658,7 +671,7 @@ footer .logo-academy-svg:active {
     width: 320px;
     border-radius: 5px;
     overflow: hidden;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 .scale {
     margin-top: 20px;
@@ -770,12 +783,19 @@ footer .logo-academy-svg:active {
 	display: inline-block;
 }
 .search-results {
-	padding: 29px 72px;
 	padding-bottom: 0;
+}
+.search-results article {
+	border-top: 1px solid #e5e5e5;
+
+}
+.search-results article:last-child {
+	border-bottom: 1px solid #e5e5e5;
 }
 .search-results .hotel-row {
 	display: flex;
-	margin-bottom: 55px;
+	padding: 29px 72px;
+	padding-bottom: 0;
 }
 .search-results .hotel-row:last-child {
 	margin-bottom: 26px;
@@ -811,6 +831,7 @@ footer .logo-academy-svg:active {
 .info-row-right a {
 	margin-left: 3px;
 }
+
 .search-results .info-row {
 	display: flex;
 	flex-direction: column;
