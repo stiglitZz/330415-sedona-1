@@ -519,12 +519,19 @@ footer .logo-academy-svg:hover {
 footer .logo-academy-svg:active {
 	fill: #bdbbbc;
 }
+footer .copyright {
+	padding: 41px 0;
+}
 .copyright span {
+	display: inline-block;
 	line-height: 26px;
-	margin-right: 4px;
+	margin-right: 5px;
 	vertical-align: top;
+	padding: 5px 0;
+
 }
 .copyright a {
+	margin-right: 5px;
 }
 /* ----- FORM filter zone -----*/
 .form-block-wrapper {
@@ -588,10 +595,13 @@ footer .logo-academy-svg:active {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	padding: 25px 70px;
+	padding: 24px 70px;
+	padding-bottom: 21px;
+
 }
-.form-block-wrapper div {
-	
+.form-block-wrapper .structure, .form-block-wrapper .type-housing, 
+.form-block-wrapper .cost-per-day {
+	min-height: 75px;
 }
 .form-block-wrapper div:first-child {
 	margin-right: 120px;
@@ -636,6 +646,7 @@ footer .logo-academy-svg:active {
     background: #ffffff;
 }
 .form-block-wrapper legend {
+	padding-top: 3px;
 	font-size: 16px;
 	font-weight: 700;
 
@@ -737,7 +748,7 @@ footer .logo-academy-svg:active {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	padding: 28px 72px;
+	padding: 30px 72px;
 }
 .search-info .title-found {
 	margin-right: 5px;
@@ -829,8 +840,8 @@ footer .logo-academy-svg:active {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	padding: 29px 72px;
-	padding-bottom: 25px;
+	padding: 27px 72px;
+	padding-bottom:26.3px;
 }
 .search-results .hotel-row:last-child {
 }
@@ -922,7 +933,7 @@ footer .logo-academy-svg:active {
 	background-color: #f2f2f2;
 	margin-left: 45px;
 }
-/* растановка звезд , вариант 1-й*/
+/* расположение звезд 1й вариант*/
 .rating-block .stars {
 	margin-bottom: 40px;
 }
@@ -940,7 +951,7 @@ footer .logo-academy-svg:active {
 }
 
 
-/* расстановка звезд 2-й вариаент */
+/* расположеие звезд 2й вариант */
 /*.rating-block .stars {
 	margin-bottom: 40px;
 	margin-left: auto;
