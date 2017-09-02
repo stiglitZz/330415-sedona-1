@@ -6,7 +6,7 @@ link.addEventListener("click", function(event) {
 
       	event.preventDefault();
       	popup.classList.toggle("search-form-hide");
-      	popup.classList.add("bounce");
+      	popup.classList.add("animate");
 
 
 
