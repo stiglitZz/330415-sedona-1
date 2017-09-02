@@ -13,7 +13,6 @@ body {
   font-weight: 400;
   -webkit-box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
   box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
-	/*background-color: green;*/;
 }
 
 body a {
@@ -411,17 +410,12 @@ body a {
 }
 
 .search-form .date-in label, .search-form .date-out label {
-	/*margin-right: 20px;*/
   box-sizing: border-box;
   padding-left: 1px;
   width: 108px;
   display: inline-block;
 }
-/*.search-form .date-out label {
-	margin-right: 16px;
-	width: 105px;
-	display: inline-block;
-} */
+
 .search-form .adult, .search-form .child {
   width: 229px;
   margin-bottom: 46px;
@@ -434,19 +428,16 @@ body a {
 }
 
 .search-form .adult label {
-	/*margin-right: 36px;*/
-  width: 110px;
-  box-sizing: border-box;
   display: inline-block;
+  box-sizing: border-box;
+  width: 110px;
 }
 
 .search-form .child label {
-	/*margin-left: 50px;*/
-	/*margin-right: 23px;*/
+  display: inline-block;
   box-sizing: border-box;
   padding-left: 50px;
   width: 110px;
-  display: inline-block;
 }
 
 .search-form .calendar-link {
@@ -710,26 +701,15 @@ footer .copyright {
 }
 
 .form-block-wrapper .structure {
-	/*margin-right: 120px;*/
   width: 256px;
 }
 
 .form-block-wrapper .type-housing {
-	/*margin-right: auto;*/
   width: 486px;
 }
 
 .form-block-wrapper .cost-per-day {
   width: 320px;
-}
-
-.form-block-wrapper div:first-child legend {
-}
-
-.form-block-wrapper .structure .row-checkbox {
-}
-
-.form-block-wrapper .structure .row-checkbox:last-child {
 }
 
 .form-block-wrapper .row-checkbox {
@@ -746,7 +726,6 @@ footer .copyright {
   font: inherit;
   width: 137px;
   text-transform: uppercase;
-    /*padding: 6px 35px;*/
   font-weight: 700;
   height: 36px;
   line-height: 20px;
@@ -972,6 +951,7 @@ footer .copyright {
 
 .search-results {
   padding-bottom: 0;
+  min-height: 156px;
 }
 
 .search-results article {
@@ -988,9 +968,6 @@ footer .copyright {
   display: flex;
   padding: 27px 72px;
   padding-bottom: 26.3px;
-}
-
-.search-results .hotel-row:last-child {
 }
 
 .search-results h1 {
@@ -1143,22 +1120,23 @@ footer .copyright {
 
 .animate {
   animation-name: slide;
-  animation-duration: 0.9s;
+  animation-duration: 1.7s;
   animation-timing-function: ease-in;
 }
 
 @keyframes slide {
   0% {
-    transform: rotate(20deg);
+    transform: rotate3d(1,-1,0,70deg);
   }
-
+  
+  25%, 75% {
+    transform: translate(-50%, 15%);
+  }  	
   50%, to {
     transform: translate(-50%, 0%);
   }
 
-  25%, 75% {
-    transform: translate(-50%, 15%);
-  }
+  
 }
 
 
