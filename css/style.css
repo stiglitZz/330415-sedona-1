@@ -639,6 +639,7 @@ footer .copyright {
   display: block;
   position: absolute;
   top: 0;
+  left: -38px;
   width: 23px;
   height: 23px;
   background: url('../img/spritesheet_checkbox.png') no-repeat -5px -5px;
@@ -649,6 +650,7 @@ footer .copyright {
   display: block;
   position: absolute;
   top: 0;
+  left: -67px;
   width: 23px;
   height: 23px;
   background: url('../img/spritesheet_checkbox.png') no-repeat -5px -38px;
@@ -663,6 +665,7 @@ footer .copyright {
   display: block;
   position: absolute;
   top: 0;
+  left: -38px;
   width: 26px;
   height: 23px;
   background: url('../img/spritesheet_checkbox.png') no-repeat -5px -71px;
@@ -677,6 +680,7 @@ footer .copyright {
   display: block;
   position: absolute;
   top: 0;
+  left: -67%;
   width: 26px;
   height: 23px;
   background: url('../img/spritesheet_checkbox.png') no-repeat -5px -104px;
