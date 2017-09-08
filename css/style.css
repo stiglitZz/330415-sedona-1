@@ -467,7 +467,10 @@ body a {
   color: #81b3d2;
   padding: 0;
   margin: 0;
+  -ms-padding-left: -1px;
+  -ms-padding-top: -1px;  
 }
+
 
 .search-form .btn-minus {
   top: 1%;
@@ -843,7 +846,7 @@ footer .copyright {
 }
 
 .toggle:hover {
-  background: #1c4f80;
+  border: 9px solid white;
 }
 
 .min-toggle {
@@ -897,23 +900,25 @@ footer .copyright {
 }
 
 .search-info .toggles a:first-child svg {
-  fill: #cacaca;                          /* по другому, в firefox не работает fill */
+  fill: #cacaca;                          /* for firefox */
+}
+.toggles a:first-child svg:active {
+  fill: #81b3d2;
+}
+.toggles a:first-child svg:hover {
+  fill: #000;
 }
 
 .search-info .toggles .svg-toggle-active {
   fill: #81b3d2;
 }
 
-.search-info .toggles svg:hover {
-  fill: #000;
-}
+
 .search-info .toggles .svg-toggle-active:hover {
   fill: #81b3d2;
 }
 
-.search-info .toggles svg:active {
-  fill: #81b3d2;
-}
+
 
 .search-info .title-found,
 .search-info .result-found {
@@ -947,7 +952,7 @@ footer .copyright {
   color: #81b3d2;
 }
 
-.search-info li a:active {
+.search-info li a:active:not(.active) {
   opacity: 1;
   color: #000;
   text-decoration: none;
