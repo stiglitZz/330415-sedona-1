@@ -473,12 +473,18 @@ body a {
 
 
 .search-form .btn-minus {
-  top: 1%;
+  top: -2.5px;
 }
 
 .search-form .btn-plus {
-  top: 4%;
-  left: 83%;
+  top: 0px;
+  left: 188px;
+}
+.child .btn-minus {
+  left: 116px;
+}
+.child .btn-plus {
+  left: 192px;
 }
 
 .search-form .btn-search {
@@ -502,6 +508,7 @@ body a {
 .search-form .btn-search:active {
   background-color: #5496bd;
   color: #94b9d2;
+  line-height: 58px;
 }
 
 .search-form .calendar-svg {
