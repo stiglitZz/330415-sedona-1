@@ -467,13 +467,13 @@ body a {
   color: #81b3d2;
   padding: 0;
   margin: 0;
-  -ms-padding-left: -1px;
-  -ms-padding-top: -1px;  
+}
+.search-form button > span {
+	position: relative;			/*for IE hack */
 }
 
-
 .search-form .btn-minus {
-  top: -2.5px;
+  top: -1px;
 }
 
 .search-form .btn-plus {
@@ -509,6 +509,8 @@ body a {
   background-color: #5496bd;
   color: #94b9d2;
   line-height: 58px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .search-form .calendar-svg {
