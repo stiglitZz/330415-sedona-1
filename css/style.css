@@ -21,6 +21,7 @@ body a {
 
 .main-nav {
   position: relative;
+
   margin-bottom: 13px;
 }
 
@@ -654,7 +655,7 @@ footer .copyright {
   display: block;
   position: absolute;
   top: 0;
-  left: -38px;
+  left: -40px;
   width: 23px;
   height: 23px;
   background: url('../img/spritesheet_checkbox.png') no-repeat -5px -5px;
@@ -680,7 +681,7 @@ footer .copyright {
   display: block;
   position: absolute;
   top: 0;
-  left: -38px;
+  left: -40px;
   width: 26px;
   height: 23px;
   background: url('../img/spritesheet_checkbox.png') no-repeat -5px -71px;
@@ -695,7 +696,7 @@ footer .copyright {
   display: block;
   position: absolute;
   top: 0;
-  left: -67%;
+  left: -40px;
   width: 26px;
   height: 23px;
   background: url('../img/spritesheet_checkbox.png') no-repeat -5px -104px;
@@ -890,7 +891,6 @@ footer .copyright {
 .search-info .title-sorting {
   margin-right: 40px;
 }
-
 .search-info ul li {
   margin-right: 34px;
 }
@@ -898,10 +898,13 @@ footer .copyright {
 .search-info .toggles {
   margin-left: auto;
   margin-top: 5px;
+  width: 100px;
+  text-align: right;
 }
 
 .search-info .toggles a {
   display: inline-block;
+  vertical-align: top;
 }
 
 .search-info .toggles a:first-child {
