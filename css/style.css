@@ -1159,14 +1159,14 @@ footer .copyright {
 
 @keyframes slide {
   0% {
-    transform: rotate3d(1,-1,0,70deg);
+    transform: rotate3d(55,-55,0,90deg);
   }
   
   25% {
-    transform: translate(-50%, 15%);
+    transform: translate(8%, 0%);
   }  	
   50%, to {
-    transform: translate(-50%, 0%);
+    transform: translate(0%, 0%);
   }
 
   
