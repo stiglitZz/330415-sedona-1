@@ -23,7 +23,7 @@ header {
 }
 .main-nav {
 
-  margin-bottom: 13px;
+  margin-bottom: 16px;
 }
 
 .main-nav ul, .social-menu ul, .search-info ul {
@@ -39,6 +39,7 @@ header {
 
 .main-nav li {
   display: inline-block;
+  vertical-align: middle;
   width: 240px;
   font-size: 14px;
   text-align: center;
@@ -579,6 +580,7 @@ footer .social-menu {
 
 .social-menu li a {
   display: inline-block;
+  vertical-align: middle;
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
@@ -630,6 +632,7 @@ footer .copyright {
 
 .copyright span {
   display: inline-block;
+  vertical-align: middle;
   line-height: 26px;
   margin-right: 5px;
   vertical-align: top;
@@ -800,6 +803,7 @@ footer .copyright {
 
 .cost-per-day .price-range label {
   display: inline-block;
+  vertical-align: middle;
   font-size: 14px;
   line-height: 32px;
   vertical-align: top;
@@ -980,6 +984,7 @@ footer .copyright {
 
 .search-info li {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .search-results {
@@ -1037,6 +1042,7 @@ footer .copyright {
 
 .info-row-left span, .info-row-right span {
   display: inline-block;
+  vertical-align: middle;
   margin-bottom: 14px;
 }
 
@@ -1058,6 +1064,7 @@ footer .copyright {
 
 .info-row-left a {
   display: inline-block;
+  vertical-align: middle;
   width: 110px;
   height: 27px;
   line-height: 27px;
@@ -1076,6 +1083,7 @@ footer .copyright {
 
 .info-row-right a {
   display: inline-block;
+  vertical-align: middle;
   width: 142px;
   height: 27px;
   line-height: 27px;
@@ -1098,6 +1106,7 @@ footer .copyright {
 
 .rating-block span {
   display: inline-block;
+  vertical-align: middle;
   padding: 0 14px;
   height: 27px;
   line-height: 27px;
